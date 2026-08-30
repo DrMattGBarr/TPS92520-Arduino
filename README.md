@@ -45,8 +45,7 @@ Alternatively, add the library as a Git submodule or PlatformIO dependency.
 #include <SPI.h>
 #include <TPS92520Driver.h>
 
-void setup()
-{
+void setup() {
     SPI.begin();
 
     TPS92520::Driver driver(config);
@@ -66,8 +65,7 @@ void setup()
     driver.enableUDIM();
 }
 
-void loop()
-{
+void loop() {
 }
 ```
 
@@ -123,8 +121,7 @@ float temperatureC =
 TPS92520::Status status =
     driver.readStatus();
 
-if (status.ch1Short)
-{
+if (status.ch1Short) {
     // Handle CH1 short-circuit condition
 }
 ```
