@@ -171,6 +171,11 @@ The library supports three common hardware configurations:
 
 The application remains responsible for system-level coordination of shared UDIM signals.
 
+### Library Limitations
+
+- During initialisation the library currently disables the TPS92520 watchdog during `begin()` and does not currently utilise any watchdog functionality.
+- Applications requiring watchdog supervision should implement their own strategy, or should extend the library to periodically service the watchdog.
+
 ## Current Status
 
 This project is under active development.
