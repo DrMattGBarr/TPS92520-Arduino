@@ -82,7 +82,7 @@ void loop() {
 ```
 ### Notes
 
-- Call `SPI.begin()` before creating or using the driver.
+- The SPI peripheral must be initialised before using the driver (for example via `SPI.begin()` or an equivalent SPI wrapper).
 - Use `enablePin = -1` if the TPS92520 UDIM pin is permanently tied high.
 - Shared-UDIM and independent-UDIM configurations are both supported.
 
