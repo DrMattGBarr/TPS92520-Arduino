@@ -57,10 +57,10 @@ constexpr TPS92520::DeviceConfig config = {
     0.1f        // CH2 sense resistor (Ohms)
 };
 
+TPS92520::Driver driver(config);
+
 void setup() {
     SPI.begin();
-
-    TPS92520::Driver driver(config);
 
     driver.configure();
     driver.begin();
