@@ -22,9 +22,9 @@ The library has currently been validated on:
 
 - Texas Instruments TPS92520-Q1
 - Seeed Studio XIAO ESP32-C3
-- Arduino SPI library
+- Arduino Mega 2560
 
-Additional Arduino boards have not yet been fully validated.
+The library uses the standard Arduino SPI interface and is expected to operate on other Arduino-compatible platforms supporting SPI.
 
 ## Installation
 
