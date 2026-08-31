@@ -200,7 +200,7 @@ Future development may include:
 
 ## Contributing
 
-Contributions, bug reports and hardware validation results are welcome.
+Contributions, bug reports, and hardware validation results are welcome.
 
 Please open an Issue or Pull Request on GitHub.
 
