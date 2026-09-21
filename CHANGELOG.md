@@ -6,6 +6,17 @@ This project follows **Semantic Versioning** (`MAJOR.MINOR.PATCH`) and uses vers
 
 ---
 
+## [0.1.1] - 2026-09-22
+
+### Fixed
+- Updated library metadata for Arduino Library Manager compatibility.
+- Renamed the library to `TPS92520Driver` to match the primary header.
+- Added the project URL to `library.properties`.
+- Declared `TPS92520Driver.h` as the primary library include.
+- Declared support for the AVR and ESP32 architectures.
+
+---
+
 ## [0.1.0] - 2026-08-31
 
 ### Added
